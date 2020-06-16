@@ -33,7 +33,7 @@ export default function Stakeholders() {
                 description="Who are the owners, employees working on the project?">
                 <Card sectioned>
                     <Form onSubmit={handleSubmit}>
-                        <FormLayout>
+                        
                             <TextField label="Email"/>
                             <TextField label="Name"/>
                             <TextField label="Company"/>
@@ -69,7 +69,7 @@ export default function Stakeholders() {
                                 />
                             </Stack>
                             <Button primary onSubmit={handleSubmit}>Save contact</Button>
-                        </FormLayout>
+                        
                     </Form>
                     <TextField label="Are you open to hiring Shopify Experts or Plus Partners?"/>
                     Are you planning to continue with your agency partner after launch?
