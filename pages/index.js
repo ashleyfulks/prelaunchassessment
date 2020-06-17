@@ -28,6 +28,8 @@ import Migration from './sections/Migration';
 import Design from './sections/Design';
 import Apps from './sections/Apps';
 import Products from './sections/Products';
+import Payments from './sections/Payments';
+
 
 export default function index() {
   const defaultState = useRef({
@@ -323,6 +325,7 @@ export default function index() {
 				<Design/><br/>
 				<Apps/><br/>
 				<Products/><br/>
+				<Payments/><br/>
 			</Layout.Section>
 		</Layout>
     </Page>

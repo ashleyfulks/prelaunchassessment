@@ -34,6 +34,15 @@ export default function Products() {
                     <p>Upload your Discounts!</p>
                     <DiscountUpload/>
                     <RadioButton label="No" name="offerDiscounts"/>
+                    <p>Do you take preorders?</p>
+                    <RadioButton label="Yes" name="doYouPreorder"/>
+                    <TextField label="Please outline your pre-order workflow and requirements"/>
+                    <RadioButton label="No" name="doYouPreorder"/>
+                    <p>Do you sell subscriptions or offer any other type of recurring payments, or payments over time?</p>
+                    <RadioButton label="Yes" name="subscriptions"/>
+                    <TextField label="Please outline your workflow and requirements"/>
+                    <RadioButton label="No" name="subscriptions"/>
+                    <TextField label="Please outline any other products complexities that we should be aware of."/>
                 </Card>
             </Layout.AnnotatedSection>
         </Layout>

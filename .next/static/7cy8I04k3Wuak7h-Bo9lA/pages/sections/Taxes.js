@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[23],{XFiZ:function(n,i,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/sections/Taxes",function(){return o("myTm")}])},myTm:function(n,i){}},[["XFiZ",0]]]);
