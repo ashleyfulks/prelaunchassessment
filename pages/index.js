@@ -1,7 +1,6 @@
 import React, {useCallback, useRef, useState} from 'react';
 import {ActionList, AppProvider, Avatar, Card, ContextualSaveBar, FormLayout, Frame, Layout, Loading, Modal, Navigation, Page, SkeletonBodyText, SkeletonDisplayText, SkeletonPage, TextContainer, TextField, Toast, TopBar} from '@shopify/polaris';
 import {
-	ArrowLeftMinor, 
 	ConversationMinor, 
 	DomainsMajorMonotone,
 	SmileyHappyMajorMonotone,
@@ -29,6 +28,7 @@ import Design from './sections/Design';
 import Apps from './sections/Apps';
 import Products from './sections/Products';
 import Payments from './sections/Payments';
+import '@shopify/polaris/styles.css';
 
 
 export default function index() {
@@ -204,31 +204,8 @@ export default function index() {
 	}
   const navigationMarkup = (
 	<Navigation location="/">
-	<Navigation.Section
-		title="Launch Resources"
-	  items={[
-		{
-			label: 'Welcome to Launch!',
-			icon: HintMajorMonotone,
-			onClick: openWelcomeKit
-		},
-		{
-			label: 'Launch Guide',
-			icon: SocialAdMajorMonotone,
-			onClick: openLaunchGuide
-		  },
-		  {
-			label: 'Fast Migration Guide',
-			icon: ImportStoreMajorMonotone,
-			onClick: openFastMigration
-		  },
-		  {
-			label: 'Launch Checklist',
-			icon: ChecklistMajorMonotone,
-			onClick: openChecklist
-		  }
-	  ]}
-	/>
+
+	
       <Navigation.Section
         separator
         title="Click on a section"
@@ -315,10 +292,10 @@ export default function index() {
   );
 
   const actualPageMarkup = (
-    <Page title="Launch Accelerator">
+    <Page title="Pre Launch Assessment">
     	<Layout>
 			<Layout.Section>
-				<Summary/><br/>
+      <Summary/><br/>
 				<Stakeholders/><br/>
 				<Dates/><br/>
 				<Migration/><br/>
@@ -389,7 +366,7 @@ export default function index() {
       contextualSaveBarSource:
         'https://screenshot.click/20-06-tejkp-vp7q2.png',
       url: 'http://www.shopify.com',
-      accessibilityLabel: 'Launch Accelerator logo',
+      accessibilityLabel: 'Pre Launch Assessment Demo',
     },
   };
 
@@ -431,12 +408,12 @@ export default function index() {
         }}
       >
         <Frame
-          topBar={topBarMarkup}
+
           navigation={navigationMarkup}
           showMobileNavigation={mobileNavigationActive}
           onNavigationDismiss={toggleMobileNavigationActive}
           skipToContentTarget={skipToContentRef.current}
-        >
+>
           {contextualSaveBarMarkup}
           {loadingMarkup}
           {pageMarkup}

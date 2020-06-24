@@ -13,7 +13,7 @@ export default function Dates() {
     return (
         <Layout>
             <Layout.AnnotatedSection title="Launch Date" description="What date are you planning to launch?">
-                <Card>
+                <Card sectioned>
                     What is your planned launch date?
                     <DatePicker
                         month="5"

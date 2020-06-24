@@ -12,7 +12,7 @@ export default function Products() {
     return(
         <Layout>
             <Layout.AnnotatedSection title="Products" description="Tell us about your products">
-                <Card>
+                <Card sectioned>
                     <TextField label="Please outline your most complex products and how they are setup with variants/options, customizations, etc."/>
                     <TextField label="Do you products have additional product information outside of the product description that needs to appear on product pages?"/>
                     <RadioButton label="Yes" name="externalProdInfo"/>

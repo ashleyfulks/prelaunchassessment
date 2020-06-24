@@ -10,7 +10,7 @@ export default function Design() {
     return(
         <Layout>
             <Layout.AnnotatedSection title='Design' description='Who is handling the build?'>
-                <Card>
+                <Card sectioned>
                     <Select label="How is your storefront theme design being handled?"
                         options={[
                             {label: 'Purchased theme', value: 'Purchased theme'},

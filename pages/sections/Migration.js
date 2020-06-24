@@ -18,7 +18,7 @@ export default function Migration() {
     return (
         <Layout>
             <Layout.AnnotatedSection title="Migration" description="Are you moving from another platform?">
-                <Card>
+                <Card sectioned>
                     <div>Is data migration a requirement?</div>
                     <RadioButton label="Yes" name="migrationReq" onChange={handleMigrationq1}/>
                     <RadioButton label="No" name="migrationReq" onChange={handleMigrationq1}/>			

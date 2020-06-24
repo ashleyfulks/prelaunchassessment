@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[16],{"2P9G":function(n,o){},C5oC:function(n,o,w){(window.__NEXT_P=window.__NEXT_P||[]).push(["/sections/Languages",function(){return w("2P9G")}])}},[["C5oC",0]]]);

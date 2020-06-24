@@ -11,7 +11,7 @@ export default function Apps() {
     return(
         <Layout>
             <Layout.AnnotatedSection title="Apps" description="Integrations, Apps and Features">
-                <Card>
+                <Card sectioned>
                     <p>What Shopify Plus exclusive apps for features are you planning to use?</p>
                     <Checkbox label="Checkout.liquid"/>
                     <Checkbox label="Launchpad app"/>
